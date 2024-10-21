@@ -22,44 +22,7 @@ public class De1_LuongDinhHoang {
             System.out.println("-----------------------");
             op = sc.nextInt();
             sc.nextLine();
-//            switch(op){
-//                case "0":
-//                    arr.add(0);
-//                    break;
-//                case "1":
-//                    arr.add(1);
-//                    break;
-//                case "2":
-//                    arr.add(2);
-//                    break;
-//                case "3":
-//                    arr.add(3);
-//                    break;
-//                case "4":
-//                    arr.add(3);
-//                    break;
-//                case "5":
-//                    arr.add(3);
-//                    break;
-//                case "6":
-//                    arr.add(3);
-//                    break;
-//                case "7":
-//                    arr.add(3);
-//                    break;
-//                case "8":
-//                    arr.add(3);
-//                    break;
-//                case "9":
-//                    arr.add(3);
-//                    break;
-//                case "stop":
-//                    System.out.println("Done");
-//                    break;
-//                default:
-//                    System.out.println("Vui long nhap so tu 0 den 9");
-//                    break;
-//          }
+
             if(op == 0){
                 System.out.println("Done");
                 break;
@@ -82,7 +45,7 @@ public class De1_LuongDinhHoang {
         
         for(int i = 0; i < arr.size(); i++)
         {
-            if(min < arr.get(i))
+            if(min > arr.get(i))
             {
                 min = arr.get(i);
             }  
