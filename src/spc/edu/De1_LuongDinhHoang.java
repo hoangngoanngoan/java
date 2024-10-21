@@ -21,7 +21,6 @@ public class De1_LuongDinhHoang {
             System.out.println("Go 0 de dung");
             System.out.println("-----------------------");
             op = sc.nextInt();
-            sc.nextLine();
 
             if(op == 0){
                 System.out.println("Done");
